@@ -10,9 +10,9 @@ import json
 import urllib.request
 from win10toast import ToastNotifier
 
-channelID = "UC3CAbRsxYUnmmRAewQfYpdA" #The channel ID of whatever channel you want to see the subscriber count of
+channelID = "YOUR CHANNEL ID GOES HERE" #The channel ID of whatever channel you want to see the subscriber count of
 
-APIkey = "AIzaSyD7p4mLZcujeQNoDwWbHb6q48DguTSrIsw" #Your API keyfrom Google's API service
+APIkey = "YOUR API KEY GOES HERE" #Your API keyfrom Google's API service
 
 openSite = urllib.request.urlopen("https://www.googleapis.com/youtube/v3/channels?part=statistics&id="+channelID+"&key="+APIkey).read()
 
