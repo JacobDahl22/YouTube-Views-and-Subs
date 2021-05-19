@@ -23,4 +23,4 @@ toasterNotif = ToastNotifier() #Creates a popup on your computer
 
 message = ("You have %d" %int(channelSubs) +" subscribers and %d" %int(channelViews) + " views.") #What the ToastNotifier is displaying
 
-toasterNotif.show_toast("Pr1me", message) #The popup name followed by the message containing the number of subscribers
+toasterNotif.show_toast("NAME OF POPUP", message) #The popup name followed by the message containing the number of subscribers
